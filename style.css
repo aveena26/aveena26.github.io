@@ -476,3 +476,28 @@ footer h2{
     font-size: 2Srem;
     font-weight: normal;
 }
+
+/* <===================COUNTDOWN===================> */
+
+/* Elegant styling */
+.countdown {
+  font-family: 'Playfair Display', serif; /* Elegant serif font */
+  font-size: 3rem;
+  color: #4a2c2a; /* Rich warm tone */
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Optional: add subtle spacing between units */
+.countdown span {
+  margin: 0 8px;
+  display: inline-block;
+}
